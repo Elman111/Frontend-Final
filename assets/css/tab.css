@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.close {
+  visibility: hidden;
+}
+
+header .nav {
+  height: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+}
+
+header .nav .navtop {
+  height: 30px;
+}
+
+header .nav .navtop .img img {
+  height: 25px;
+}
+
+header .nav .navtop .links a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #1b1b1b;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+header .nav .navtop .links a:hover {
+  text-decoration: underline;
+}
+
+header .nav .navtop .bascet i {
+  margin-left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+header .nav .navtop .bascet i sup {
+  font-size: 12px;
+}
+
+header .nav .navtop .bascet a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #1b1b1b;
+}
+
+main #head .head {
+  background-color: #f7f7f7;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+main #head .head .text h1 {
+  font-size: 50px;
+  font-weight: 250;
+  font-style: italic;
+}
+
+main #first-tab .first-tab {
+  font-weight: 200;
+  font-style: italic;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+main #first-tab .first-tab button {
+  color: #1b1b1b;
+}
+
+main #first-tab .first-tab button:hover {
+  background-color: #f34f3f;
+  color: white;
+}
+
+main #first-tab .first-tab .tab-pane {
+  padding: 30px;
+  border: 1px solid #ccc;
+}
+
+main #second-tab .second-tab {
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  font-weight: 200;
+  font-style: italic;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+main #second-tab .second-tab .nav button {
+  color: #1b1b1b;
+}
+
+main #second-tab .second-tab .nav button:hover {
+  background-color: #f34f3f;
+  color: white;
+}
+
+main #second-tab .second-tab .nav .active {
+  background-color: #f34f3f;
+  color: white;
+  border: 1px solid #ccc;
+}
+
+main #third-tab .third-tab {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+main #third-tab .third-tab .nav button {
+  border: 1px solid #ccc;
+  border-radius: 0;
+  color: #1b1b1b;
+  background-color: white;
+  border: none;
+}
+
+main #third-tab .third-tab .nav button:hover {
+  background-color: #f34f3f;
+  color: white;
+  border: 1px solid #ccc;
+}
+
+main #third-tab .third-tab .nav .active {
+  background-color: #f34f3f;
+  color: white;
+  border: 1px solid #ccc;
+}
+
+footer .footer {
+  background-color: #fefaf3;
+  height: 400px;
+}
+
+footer .footer .info {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #8b8b8b;
+}
+
+footer .footer .info a {
+  display: block;
+  margin-top: 15px;
+  color: #8b8b8b;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+footer .footer .info a:hover {
+  color: #f34f3f;
+}
+
+footer .footer .main-info p {
+  color: #8b8b8b;
+}
+
+footer .footer .main-info a {
+  float: right;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #8b8b8b;
+}
+
+footer .footer .main-info a:hover {
+  color: #f34f3f;
+}
+/*# sourceMappingURL=tab.css.map */
