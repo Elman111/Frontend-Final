@@ -47,6 +47,49 @@ main #product-info .product-info .list-right {
   font-style: italic;
 }
 
+main #product-info .product-info .list-right .cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #product-info .product-info .list-right .cart .quantity {
+  height: 50px;
+  width: 50%;
+  border: 1px solid #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #product-info .product-info .list-right .cart .quantity p {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+main #product-info .product-info .list-right .cart .quantity .quantity-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 0;
+}
+
+main #product-info .product-info .list-right .cart .quantity .quantity-btn input {
+  width: 30px;
+  border: none;
+  height: 20px;
+}
+
+main #product-info .product-info .list-right .cart button {
+  width: 150px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
 main #tab .tab {
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
@@ -69,6 +112,31 @@ main #tab .tab .nav .active {
   background-color: #f34f3f;
   color: white;
   border: 1px solid #ccc;
+}
+
+main #products .products {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-weight: 200;
+  font-style: italic;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+main #products .products h5 {
+  margin-bottom: 50px;
+  float: left;
+}
+
+main #products .products p {
+  text-align: center;
+  margin-top: 20px;
+  color: #1b1b1b;
+  font-weight: 300;
+}
+
+main #products .products span {
+  text-align: center;
 }
 
 footer .footer {
