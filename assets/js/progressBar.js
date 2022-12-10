@@ -2,7 +2,7 @@ var i = 0;
   if (i == 0) {
     i = 0;
     var elem = document.getElementById("myBar");
-    var sal = document.getElementById("text");
+    var txt = document.getElementById("text");
     var width = 0;
     var id = setInterval(frame,10);
     function frame() {
@@ -12,7 +12,7 @@ var i = 0;
       } else {
         width++;
         elem.style.width = width + "%";
-        sal.innerHTML = width  + "%";
+        txt.innerHTML = width  + "%";
       }
     }
   }

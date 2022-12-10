@@ -72,7 +72,20 @@ main{
             padding-top: 100px;
             padding-bottom: 100px;
                 .nav{
-                .tab-
+                    button{
+                        color: #1b1b1b;
+                    }
+                    button:hover{
+                        background-color: #f34f3f;
+                        color: white;
+                    }
+                    .active{
+                        background-color: #f34f3f;
+                        color: white;
+                        border: 1px solid #ccc;
+                    }
+                
+                }
             
         }
     }
