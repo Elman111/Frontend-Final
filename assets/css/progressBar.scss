@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.close{
+    visibility: hidden;
+}
+
+main{
+
+
+    #head{
+        .head{
+            background-color: #f7f7f7;
+            padding-top: 80px;
+            padding-bottom: 80px;
+            .text{
+                h1{
+                    font-size: 50px;
+                    font-weight: 250;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+    
+    
+    #first-bar{
+        .first-bar{
+            #myProgress {
+                width: 100%;
+                background-color: #ddd;
+              }
+              
+              #myBar {
+                height: 3px;
+                background-color: red;
+              }
+        }
+    }
+    
+
+}
+
+
+
+
+footer{
+    .footer{
+        background-color: #fefaf3;
+        height: 400px;
+        .info{
+            padding-top: 50px;
+            padding-bottom: 50px;
+            border-bottom: 1px solid #8b8b8b;
+            a{
+                display: block;
+                margin-top: 15px;
+                color: #8b8b8b;
+                text-decoration: none;
+                font-size: 14px;
+            }
+            a:hover{
+                color: #f34f3f;
+            }
+        }
+        .main-info{
+            p{
+                color: #8b8b8b;
+            }
+            a{
+                float: right;
+                margin-left: 20px;
+                text-decoration: none;
+                color: #8b8b8b;
+            }
+            a:hover{
+                color: #f34f3f;
+            }
+        }
+    }
+}
