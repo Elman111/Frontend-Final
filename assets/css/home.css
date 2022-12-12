@@ -207,24 +207,44 @@ header .nav .navtop .bascet a {
 
 main #slide .slide {
   background-color: #f7f7f7;
+  height: 500px;
+}
+
+main #slide .slide i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 250px;
+  cursor: pointer;
+  font-size: 30px;
 }
 
 main #slide .slide .slide-left {
   font-weight: 150;
   font-style: italic;
+  margin-top: 20%;
+  margin-left: 30px;
 }
 
 main #slide .slide .slide-left h1 {
   font-size: 45px;
+  font-weight: 250;
 }
 
 main #slide .slide .slide-left p {
   font-size: 20px;
 }
 
+main #slide .slide .slide-right {
+  height: 100%;
+}
+
 main #slide .slide .slide-right img {
   width: 100%;
-  background-color: #f7f7f7;
+  height: 100%;
 }
 
 main #product .product {
@@ -262,6 +282,15 @@ main #product .product .product-main {
 
 main #product .product .product-main img {
   width: 100%;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+main #product .product .product-main img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 main #product .product .product-main .text {
@@ -327,6 +356,40 @@ main #expert .expert .expert-info p {
 
 main #expert .expert .expert-info span {
   font-size: 13px;
+}
+
+main #search .search {
+  background-image: url("../images/h3-background-img.jpg");
+  height: 530px;
+}
+
+main #search .search h1 {
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+  font-style: italic;
+}
+
+main #search .search .searchInp {
+  text-align: center;
+  margin-top: 50px;
+}
+
+main #search .search .searchInp input {
+  width: 40%;
+  height: 50px;
+  padding: 10px;
+  margin-right: -4px;
+  outline: none;
+}
+
+main #search .search .searchInp button {
+  height: 50px;
+  width: 130px;
+  background-color: #da4141;
+  color: white;
+  border: none;
+  margin-left: 0;
 }
 
 main #simple-carusel .carusel {
@@ -412,13 +475,13 @@ main #blog .blog .blog-info .img {
 
 main #blog .blog .blog-info .img img {
   width: 100%;
-  -webkit-transition: 1s all ease-in-out;
-  transition: 1s all ease-in-out;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
 }
 
 main #blog .blog .blog-info .img:hover img {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 main #blog .blog .blog-info .text {

@@ -74,7 +74,10 @@ main #product-info .product-info .list-right .cart .quantity .quantity-btn {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  right: 0;
+}
+
+main #product-info .product-info .list-right .cart .quantity .quantity-btn i {
+  cursor: pointer;
 }
 
 main #product-info .product-info .list-right .cart .quantity .quantity-btn input {

@@ -64,9 +64,8 @@ main{
                           .quantity-btn{
                               display: flex;
                               align-items: center;
-                              right: 0;
                             i{
-
+                                cursor: pointer;
                             }
                             input{
                                 width: 30px;
