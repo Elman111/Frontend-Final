@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main #head .head {
+  background-color: #f7f7f7;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+main #head .head .text h1 {
+  font-size: 50px;
+  font-weight: 250;
+  font-style: italic;
+}
+
+main #head .head .text p {
+  font-size: 18px;
+  font-weight: 250;
+  font-style: italic;
+}
+
+main #total .buttons input {
+  width: 200px;
+  height: 45px;
+  padding: 20px;
+  outline: none;
+  border: 1px solid black;
+  margin-right: -4;
+}
+
+main #total .buttons button {
+  width: 200px;
+  height: 45px;
+  border: none;
+  background-color: #413e3e;
+  color: white;
+  margin-left: 0;
+  font-size: 14px;
+  font-style: italic;
+}
+
+main #total .total {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+main #total .total h1 {
+  font-weight: 250;
+  font-style: italic;
+}
+
+main #total .total h5 {
+  font-weight: 300;
+  font-style: italic;
+}
+
+main #total .total p {
+  color: #b6b6b6;
+}
+
+main #total .total button {
+  width: 260px;
+  height: 50px;
+  background-color: #f34f3f;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+main #total .total .subtotal {
+  border-bottom: 1px solid #ccc;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+main #total .total .shipping {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+main #total .total .total-txt {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+footer .footer {
+  background-color: #fefaf3;
+  height: 400px;
+}
+
+footer .footer .info {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #8b8b8b;
+}
+
+footer .footer .info a {
+  display: block;
+  margin-top: 15px;
+  color: #8b8b8b;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+footer .footer .info a:hover {
+  color: #f34f3f;
+}
+
+footer .footer .main-info p {
+  color: #8b8b8b;
+}
+
+footer .footer .main-info a {
+  float: right;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #8b8b8b;
+}
+
+footer .footer .main-info a:hover {
+  color: #f34f3f;
+}
+/*# sourceMappingURL=cart.css.map */

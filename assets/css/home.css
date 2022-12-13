@@ -238,15 +238,6 @@ main #slide .slide .slide-left p {
   font-size: 20px;
 }
 
-main #slide .slide .slide-right {
-  height: 100%;
-}
-
-main #slide .slide .slide-right img {
-  width: 100%;
-  height: 100%;
-}
-
 main #product .product {
   padding-top: 60px;
   padding-bottom: 100px;
@@ -360,6 +351,7 @@ main #expert .expert .expert-info span {
 
 main #search .search {
   background-image: url("../images/h3-background-img.jpg");
+  background-attachment: fixed;
   height: 530px;
 }
 
@@ -377,16 +369,16 @@ main #search .search .searchInp {
 
 main #search .search .searchInp input {
   width: 40%;
-  height: 50px;
-  padding: 10px;
+  height: 60px;
+  padding: 15px;
   margin-right: -4px;
   outline: none;
 }
 
 main #search .search .searchInp button {
-  height: 50px;
-  width: 130px;
-  background-color: #da4141;
+  height: 60px;
+  width: 140px;
+  background-color: #d33737;
   color: white;
   border: none;
   margin-left: 0;
