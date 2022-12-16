@@ -149,20 +149,6 @@ main #product-sixly .product-sixly .product-main .text span {
   font-size: 13px;
 }
 
-.owl-carousel {
-  position: static;
-}
-
-.container {
-  position: relative;
-}
-
-.owl-nav {
-  top: 0;
-  position: absolute;
-  right: 10px;
-}
-
 footer .footer {
   background-color: #fefaf3;
   height: 400px;

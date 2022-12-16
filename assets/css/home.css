@@ -206,7 +206,6 @@ header .nav .navtop .bascet a {
 }
 
 main #slide .slide {
-  background-color: #f7f7f7;
   height: 500px;
 }
 
@@ -220,6 +219,11 @@ main #slide .slide i {
   margin-top: 250px;
   cursor: pointer;
   font-size: 30px;
+  color: #8b8b8b;
+}
+
+main #slide .slide i:hover {
+  color: #1b1b1b;
 }
 
 main #slide .slide .slide-left {
@@ -382,62 +386,6 @@ main #search .search .searchInp button {
   color: white;
   border: none;
   margin-left: 0;
-}
-
-main #simple-carusel .carusel {
-  height: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #8b8b8b;
-}
-
-main #simple-carusel .carusel i {
-  font-size: 30px;
-}
-
-main #simple-carusel .carusel i:hover {
-  color: black;
-}
-
-main #simple-carusel .carusel .first-main {
-  text-align: center;
-  width: 40%;
-}
-
-main #simple-carusel .carusel .first-main h4 {
-  font-weight: 200;
-  font-style: italic;
-  margin-top: 10px;
-  color: #1b1b1b;
-}
-
-main #simple-carusel .carusel .first-main p {
-  margin-top: 20px;
-  color: #1b1b1b;
-}
-
-main #simple-carusel .carusel .second-main {
-  text-align: center;
-  width: 40%;
-}
-
-main #simple-carusel .carusel .second-main h4 {
-  font-weight: 200;
-  font-style: italic;
-  margin-top: 10px;
-  color: #1b1b1b;
-}
-
-main #simple-carusel .carusel .second-main p {
-  margin-top: 20px;
-  color: #1b1b1b;
 }
 
 main #blog .blog {

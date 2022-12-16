@@ -199,8 +199,7 @@ main{
 
 
     #slide{
-        .slide{
-            background-color: #f7f7f7;
+        .slide{ 
             height: 500px;
             i{
                 display: flex;
@@ -208,6 +207,10 @@ main{
                 margin-top: 250px;
                 cursor: pointer;
                 font-size: 30px;
+                color: #8b8b8b;
+            }
+            i:hover{
+                color: #1b1b1b;
             }
             .slide-left{
                 font-weight: 150;
@@ -379,53 +382,54 @@ main{
 
 
     #simple-carusel{
-        .carusel{
-            height: 500px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #8b8b8b;
-            i{
-                font-size: 30px;
-            }
-            i:hover{
-                color: black;
-            }
-            .first-main{
-                text-align: center;
-                width: 40%;
-                h4{
-                    font-weight: 200;
-                    font-style: italic;
-                    margin-top: 10px;
-                    color: #1b1b1b;
-                }
-                p{
-                    margin-top: 20px;
-                    color: #1b1b1b;
-                }
-                span{
+        // .carusel{
+        //     height: 500px;
+        //     display: flex;
+        //     justify-content: center;
+        //     align-items: center;
+        //     color: #8b8b8b;
+        //     i{
+        //         font-size: 30px;
+        //         color: #8b8b8b;
+        //     }
+        //     i:hover{
+        //         color: black;
+        //     }
+        //     .first-main{
+        //         text-align: center;
+        //         width: 40%;
+        //         h4{
+        //             font-weight: 200;
+        //             font-style: italic;
+        //             margin-top: 10px;
+        //             color: #1b1b1b;
+        //         }
+        //         p{
+        //             margin-top: 20px;
+        //             color: #1b1b1b;
+        //         }
+        //         span{
 
-                }
-            }
-            .second-main{
-                text-align: center;
-                width: 40%;
-                h4{
-                    font-weight: 200;
-                    font-style: italic;
-                    margin-top: 10px;
-                    color: #1b1b1b;
-                }
-                p{
-                    margin-top: 20px;
-                    color: #1b1b1b;
-                }
-                span{
+        //         }
+        //     }
+        //     .second-main{
+        //         text-align: center;
+        //         width: 40%;
+        //         h4{
+        //             font-weight: 200;
+        //             font-style: italic;
+        //             margin-top: 10px;
+        //             color: #1b1b1b;
+        //         }
+        //         p{
+        //             margin-top: 20px;
+        //             color: #1b1b1b;
+        //         }
+        //         span{
 
-                }
-            }
-        }
+        //         }
+        //     }
+        // }
     }
 
 

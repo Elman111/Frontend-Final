@@ -63,15 +63,11 @@ main{
                           }
                           .quantity-btn{
                               display: flex;
-                              align-items: center;
-                            i{
-                                cursor: pointer;
-                            }
-                            input{
-                                width: 30px;
-                                border: none;
-                                height: 20px;
-                                
+                              margin-left: 20;
+                            span{
+                                display: flex;
+                                justify-content: right;
+                                align-items: center;
                             }
                           }
 
@@ -100,6 +96,12 @@ main{
             font-style: italic;
             padding-top: 100px;
             padding-bottom: 100px;
+            input{
+                outline: none;
+            }
+            .tab-pane3{
+                display: none;
+            }
                 .nav{
                     button{
                         color: #1b1b1b;

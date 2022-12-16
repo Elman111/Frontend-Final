@@ -71,19 +71,19 @@ main #product-info .product-info .list-right .cart .quantity .quantity-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 20;
+}
+
+main #product-info .product-info .list-right .cart .quantity .quantity-btn span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-main #product-info .product-info .list-right .cart .quantity .quantity-btn i {
-  cursor: pointer;
-}
-
-main #product-info .product-info .list-right .cart .quantity .quantity-btn input {
-  width: 30px;
-  border: none;
-  height: 20px;
 }
 
 main #product-info .product-info .list-right .cart button {
@@ -100,6 +100,14 @@ main #tab .tab {
   font-style: italic;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+main #tab .tab input {
+  outline: none;
+}
+
+main #tab .tab .tab-pane3 {
+  display: none;
 }
 
 main #tab .tab .nav button {

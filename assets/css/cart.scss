@@ -30,23 +30,41 @@ main{
 
     #total{
         .buttons{
-            input{
-                width: 200px;
-                height: 45px;
-                padding: 20px;
-                outline: none;
-                border: 1px solid black;
-                margin-right: -4;
+            padding-top: 50px;
+            display: flex;
+            .left-btn{
+                display: inline-block; 
+                input{
+                    width: 250px;
+                    height: 45px;
+                    padding: 20px;
+                    outline: none;
+                    border: 1px solid black;
+                    margin-right: -4;
+                }
+                button{
+                    width: 200px;
+                    height: 45px;
+                    border: none;
+                    background-color: rgb(65, 62, 62);
+                    color: white;
+                    margin-left: 0;
+                    font-size: 14px;
+                    font-style: italic;
+                }
             }
-            button{
-                width: 200px;
-                height: 45px;
-                border: none;
-                background-color: rgb(65, 62, 62);
-                color: white;
-                margin-left: 0;
-                font-size: 14px;
-                font-style: italic;
+            .right-btn{
+                float: right;
+                button{
+                    width: 200px;
+                    height: 45px;
+                    border: none;
+                    background-color: #f34f3f;
+                    color: white;
+                    margin-left: 0;
+                    font-size: 14px;
+                    font-style: italic;
+                }
             }
         }
         .total{

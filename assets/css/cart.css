@@ -23,8 +23,19 @@ main #head .head .text p {
   font-style: italic;
 }
 
-main #total .buttons input {
-  width: 200px;
+main #total .buttons {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #total .buttons .left-btn {
+  display: inline-block;
+}
+
+main #total .buttons .left-btn input {
+  width: 250px;
   height: 45px;
   padding: 20px;
   outline: none;
@@ -32,11 +43,26 @@ main #total .buttons input {
   margin-right: -4;
 }
 
-main #total .buttons button {
+main #total .buttons .left-btn button {
   width: 200px;
   height: 45px;
   border: none;
   background-color: #413e3e;
+  color: white;
+  margin-left: 0;
+  font-size: 14px;
+  font-style: italic;
+}
+
+main #total .buttons .right-btn {
+  float: right;
+}
+
+main #total .buttons .right-btn button {
+  width: 200px;
+  height: 45px;
+  border: none;
+  background-color: #f34f3f;
   color: white;
   margin-left: 0;
   font-size: 14px;

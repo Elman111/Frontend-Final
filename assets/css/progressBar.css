@@ -27,8 +27,12 @@ main #first-bar .first-bar #myProgress {
 }
 
 main #first-bar .first-bar #myBar {
-  height: 3px;
-  background-color: red;
+  width: 10%;
+  height: 30px;
+  background-color: #04AA6D;
+  text-align: center;
+  line-height: 30px;
+  color: white;
 }
 
 footer .footer {
