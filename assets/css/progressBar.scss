@@ -28,23 +28,236 @@ main{
     
     #first-bar{
         .first-bar{
-            #myProgress {
-                width: 100%;
-                background-color: #ddd;
-              }
-              
-              #myBar {
-                width: 10%;
-                height: 30px;
-                background-color: #04AA6D;
-                text-align: center;
-                line-height: 30px;
-                color: white;
-              }
+            border-bottom: 1px solid #ccc;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            font-style: italic;
+            ul{
+                list-style: none;
+                li{
+                    margin-top: 10px;
+                    h5{
+                        font-weight: 200;
+                        font-size: 18px;
+                    }
+                    .bar{
+                        height: 4px;
+                        background: #ccc;
+                    }
+                    .bar span{
+                        height: 4px;
+                        float: left;
+                    }
+                    .growing{
+                        background: red;
+                        width: 95%;
+                        animation: growing 2s;
+                    }
+                    
+                    @keyframes growing{
+                        0%{
+                            width: 0%;
+                        }
+                        100%{
+                            width: 95%;
+                        }
+                    }
+                    .watering{
+                        background: red;
+                        width: 80%;
+                        animation: watering 2s;
+                    }
+                    @keyframes watering{
+                        0%{
+                            width: 0%;
+                        }
+                        100%{
+                            width: 80%;
+                        }
+                    }
+                    
+                    .furtiziling{
+                        background: red;
+                        width: 55%;
+                        animation: furtiziling 2s;
+                    }
+                    @keyframes furtiziling{
+                        0%{
+                            width: 0%;
+                        }
+                        100%{
+                            width: 55%;
+                        }
+                    }
+
+
+
+
+
+
+                    .growing1{
+                        background: red;
+                        width: 95%;
+                        animation: growing 2s;
+                    }
+                    
+                    @keyframes growing1{
+                        0%{
+                            width: 0%;
+                        }
+                        100%{
+                            width: 95%;
+                        }
+                    }
+                    .watering1{
+                        background: red;
+                        width: 80%;
+                        animation: watering 2s;
+                    }
+                    @keyframes watering1{
+                        0%{
+                            width: 0%;
+                        }
+                        100%{
+                            width: 80%;
+                        }
+                    }
+                    
+                    .furtiziling1{
+                        background: red;
+                        width: 55%;
+                        animation: furtiziling 2s;
+                    }
+                    @keyframes furtiziling1{
+                        0%{
+                            width: 0%;
+                        }
+                        100%{
+                            width: 55%;
+                        }
+                    }
+
+
+
+
+
+                    .growing2{
+                        background: red;
+                        width: 95%;
+                        animation: growing 2s;
+                    }
+                    
+                    @keyframes growing2{
+                        0%{
+                            width: 0%;
+                        }
+                        100%{
+                            width: 95%;
+                        }
+                    }
+                    .watering2{
+                        background: red;
+                        width: 80%;
+                        animation: watering 2s;
+                    }
+                    @keyframes watering2{
+                        0%{
+                            width: 0%;
+                        }
+                        100%{
+                            width: 80%;
+                        }
+                    }
+                    
+                    .furtiziling2{
+                        background: red;
+                        width: 55%;
+                        animation: furtiziling 2s;
+                    }
+                    @keyframes furtiziling2{
+                        0%{
+                            width: 0%;
+                        }
+                        100%{
+                            width: 55%;
+                        }
+                    }
+                }
+            }
+            
+
         }
     }
     
 
+    #second-bar{
+        .second-bar{
+            border-bottom: 1px solid #ccc;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            font-style: italic;
+            ul{
+                list-style: none;
+                li{
+                    margin-top: 10px;
+                    h5{
+                        font-weight: 200;
+                        font-size: 18px;
+                    }
+                    .bar{
+                        height: 4px;
+                        background: black;
+                    }
+                    .bar span{
+                        height: 4px;
+                        float: left;
+                    }
+                    .growing2{
+                        background: red;
+                        width: 95%;
+                        animation: growing 2s;
+                    }
+                    
+                    @keyframes growing2{
+                        0%{
+                            width: 0%;
+                        }
+                        100%{
+                            width: 95%;
+                        }
+                    }
+                    .watering2{
+                        background: red;
+                        width: 80%;
+                        animation: watering 2s;
+                    }
+                    @keyframes watering2{
+                        0%{
+                            width: 0%;
+                        }
+                        100%{
+                            width: 80%;
+                        }
+                    }
+                    
+                    .furtiziling2{
+                        background: red;
+                        width: 55%;
+                        animation: furtiziling 2s;
+                    }
+                    @keyframes furtiziling2{
+                        0%{
+                            width: 0%;
+                        }
+                        100%{
+                            width: 55%;
+                        }
+                    }
+
+                 }
+          }
+    
+    }   }
 }
 
 

@@ -21,18 +21,337 @@ main #head .head .text h1 {
   font-style: italic;
 }
 
-main #first-bar .first-bar #myProgress {
-  width: 100%;
-  background-color: #ddd;
+main #first-bar .first-bar {
+  border-bottom: 1px solid #ccc;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-style: italic;
 }
 
-main #first-bar .first-bar #myBar {
-  width: 10%;
-  height: 30px;
-  background-color: #04AA6D;
-  text-align: center;
-  line-height: 30px;
-  color: white;
+main #first-bar .first-bar ul {
+  list-style: none;
+}
+
+main #first-bar .first-bar ul li {
+  margin-top: 10px;
+}
+
+main #first-bar .first-bar ul li h5 {
+  font-weight: 200;
+  font-size: 18px;
+}
+
+main #first-bar .first-bar ul li .bar {
+  height: 4px;
+  background: #ccc;
+}
+
+main #first-bar .first-bar ul li .bar span {
+  height: 4px;
+  float: left;
+}
+
+main #first-bar .first-bar ul li .growing {
+  background: red;
+  width: 95%;
+  -webkit-animation: growing 2s;
+          animation: growing 2s;
+}
+
+@-webkit-keyframes growing {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes growing {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+main #first-bar .first-bar ul li .watering {
+  background: red;
+  width: 80%;
+  -webkit-animation: watering 2s;
+          animation: watering 2s;
+}
+
+@-webkit-keyframes watering {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes watering {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+main #first-bar .first-bar ul li .furtiziling {
+  background: red;
+  width: 55%;
+  -webkit-animation: furtiziling 2s;
+          animation: furtiziling 2s;
+}
+
+@-webkit-keyframes furtiziling {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
+
+@keyframes furtiziling {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
+
+main #first-bar .first-bar ul li .growing1 {
+  background: red;
+  width: 95%;
+  -webkit-animation: growing 2s;
+          animation: growing 2s;
+}
+
+@-webkit-keyframes growing1 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes growing1 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+main #first-bar .first-bar ul li .watering1 {
+  background: red;
+  width: 80%;
+  -webkit-animation: watering 2s;
+          animation: watering 2s;
+}
+
+@-webkit-keyframes watering1 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes watering1 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+main #first-bar .first-bar ul li .furtiziling1 {
+  background: red;
+  width: 55%;
+  -webkit-animation: furtiziling 2s;
+          animation: furtiziling 2s;
+}
+
+@-webkit-keyframes furtiziling1 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
+
+@keyframes furtiziling1 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
+
+main #first-bar .first-bar ul li .growing2 {
+  background: red;
+  width: 95%;
+  -webkit-animation: growing 2s;
+          animation: growing 2s;
+}
+
+@-webkit-keyframes growing2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes growing2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+main #first-bar .first-bar ul li .watering2 {
+  background: red;
+  width: 80%;
+  -webkit-animation: watering 2s;
+          animation: watering 2s;
+}
+
+@-webkit-keyframes watering2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes watering2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+main #first-bar .first-bar ul li .furtiziling2 {
+  background: red;
+  width: 55%;
+  -webkit-animation: furtiziling 2s;
+          animation: furtiziling 2s;
+}
+
+@-webkit-keyframes furtiziling2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
+
+@keyframes furtiziling2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
+
+main #second-bar .second-bar {
+  border-bottom: 1px solid #ccc;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-style: italic;
+}
+
+main #second-bar .second-bar ul {
+  list-style: none;
+}
+
+main #second-bar .second-bar ul li {
+  margin-top: 10px;
+}
+
+main #second-bar .second-bar ul li h5 {
+  font-weight: 200;
+  font-size: 18px;
+}
+
+main #second-bar .second-bar ul li .bar {
+  height: 4px;
+  background: black;
+}
+
+main #second-bar .second-bar ul li .bar span {
+  height: 4px;
+  float: left;
+}
+
+main #second-bar .second-bar ul li .growing2 {
+  background: red;
+  width: 95%;
+  -webkit-animation: growing 2s;
+          animation: growing 2s;
+}
+
+@keyframes growing2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+main #second-bar .second-bar ul li .watering2 {
+  background: red;
+  width: 80%;
+  -webkit-animation: watering 2s;
+          animation: watering 2s;
+}
+
+@keyframes watering2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+main #second-bar .second-bar ul li .furtiziling2 {
+  background: red;
+  width: 55%;
+  -webkit-animation: furtiziling 2s;
+          animation: furtiziling 2s;
+}
+
+@keyframes furtiziling2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
 }
 
 footer .footer {
