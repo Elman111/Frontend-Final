@@ -15,6 +15,148 @@
 
 <body>
 
+    <header>
+        <div class="nav">
+            <div class="container">
+                <div class="navtop">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="img">
+                                <a href="home.html"><img src="./assets/images/h2-logo-1.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="links">
+                                <div class="dropdown2">
+                                    <button style="text-decoration: underline;" class="dropbtn2">HOME</button>
+                                    <a href="home.html">
+                                        <div class="dropdown-content2">
+                                            <a href="home.html">Home</a>
+                                            <a href="home.html">Home</a>
+                                            <a href="home.html">Home</a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="dropdown3">
+                                    <button class="dropbtn3">PAGES </i></button>
+                                    <a href="home.html">
+                                        <div class="dropdown-content3">
+                                            <a href="home.html">Home</a>
+                                            <a href="home.html">Home</a>
+                                            <a href="home.html">Home</a>
+                                            <a href="home.html">Home</a>
+                                            <a href="home.html">Home</a>
+                                            <a href="home.html">Home</a>
+                                            <a href="home.html">Home</a>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div class="dropdown4">
+                                    <a href="shop.html"><button class="dropbtn4">SHOP</button></a>
+                                    <div class="dropdown-content4">
+                                        <a href="#">Product Types
+                                            <ul>
+
+                                                <li>Shop Default</li>
+                                                <li>Shop Right Sidebar</li>
+                                                <li>Sgop Wide</li>
+                                                <li>List Left Sidebar</li>
+                                                <li>Load More Button</li>
+                                                <li>Infinite Scrolling</li>
+                                            </ul>
+                                        </a>
+                                        <a href="#">Shop Pages
+                                            <ul>
+
+                                                <li>Product Default</li>
+                                                <li>Product Variable</li>
+                                                <li>Product Grouped</li>
+                                                <li>Product External</li>
+                                                <li>Product Downloadable</li>
+                                                <li>Product With Video</li>
+                                            </ul>
+                                        </a>
+                                        <a href="#">Shop Types
+                                            <ul>
+
+                                                <li>Single Type</li>
+                                                <li>Single Type</li>
+                                                <li>Single Type</li>
+                                                <li>Single Type</li>
+                                                <li>Thumbnails</li>
+                                            </ul>
+                                        </a>
+                                        <a href="#">Shop Layouts
+                                            <ul>
+
+                                                <li>Cart</li>
+                                                <li>Checkout</li>
+                                                <li>My account</li>
+                                                <li>Wishlist</li>
+                                                <li>Order Tracking</li>
+                                                <li>Order on WhatsApp</li>
+                                            </ul>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="dropdown3">
+                                    <button class="dropbtn3">PORTFOLIO </i></button>
+                                    <a href="home.html">
+                                        <div class="dropdown-content3">
+                                            <a href="home.html">Home</a>
+                                            <a href="home.html">Home</a>
+                                            <a href="home.html">Home</a>
+                                            <a href="home.html">Home</a>
+                                            <a href="home.html">Home</a>
+                                            <a href="home.html">Home</a>
+                                            <a href="home.html">Home</a>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div class="dropdown2">
+                                    <button class="dropbtn2">BLOG</button>
+                                    <a href="home.html">
+                                        <div class="dropdown-content2">
+                                            <a href="home.html">Home</a>
+                                            <a href="home.html">Home</a>
+                                            <a href="home.html">Home</a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="dropdown2">
+                                    <button class="dropbtn2">ELEMENTS</button>
+                                    <a href="home.html">
+                                        <div class="dropdown-content2">
+                                            <a href="home.html">Home</a>
+                                            <a href="home.html">Home</a>
+                                            <a href="home.html">Home</a>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="bascet">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <i class="fa-solid fa-basket-shopping">
+                                    <sup>
+                                        <span id="basketCount">
+                                          0
+                                        </span>
+                                      </sup>
+                                </i>
+                                <a href="">CART($<span id="navPrice">0</span>)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
 
     <main>
 
@@ -30,6 +172,29 @@
             </div>
         </section>
 
+        <section id="basket">
+            <div class="basket">
+                <div class="container">
+                    <table style="text-align: center;" id="table" class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Product</th>
+                            <th  scope="col">Price</th>
+                            <th scope="col"> Count </th>
+                            <th scope="col">SubTotal</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col">Remove</th>
+                        
+                          </tr>
+                        </thead >
+                        <tbody style="text-align: center;" id="tbody">
+                        </tbody>
+                      
+                      </table>
+                </div>
+            </div>
+        </section>
+
 
         <section id="total">
             <div class="buttons">
@@ -39,20 +204,21 @@
                         <button>APPLY CUPON</button>
                     </div>
                     <div class="right-btn">
-                        <button>UPDATE CART</button>
+                        <button id="update">UPDATE CART</button>
                     </div>
                 </div>
             </div>
             <div class="total">
                 <div class="container">
                     <h1>Cart totals</h1>
+                    
                     <div class="subtotal">
                         <div class="row">
                             <div class="col-4">
                                 <h5>SUBTOTAL</h5>
                             </div>
                             <div class="col-8">
-                                <p></p>
+                                <p id="cartTotal"></p>
                             </div>
                         </div>
                     </div>
@@ -74,12 +240,13 @@
                                 <h5>TOTAL</h5>
                             </div>
                             <div class="col-8">
-                                <p></p>
+                                <p id="cartTotal"></p>
                             </div>
                         </div>
                     </div>
                     <button> Proceed to checkout</button>
                 </div>
+            </div>
         </section>
 
 
@@ -94,14 +261,14 @@
             <div class="container">
                 <div class="info">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <p>CUSTOMER SERVICE</p>
                             <a href="">Help & Contact Us</a>
                             <a href="">Returns & Refunds</a>
                             <a href="">Online Stores</a>
                             <a href="">Terms & Conditions</a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <p>COMPANY</p>
                             <a href="">About Us</a>
                             <a href="">Blog</a>
@@ -110,14 +277,14 @@
                             <a href="">Contact Us</a>
                             <a href="">Login</a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <p>SOCIAL MEDIA</p>
                             <a href="">Twitter</a>
                             <a href="">Instagram</a>
                             <a href="">Tumblr</a>
                             <a href="">Pinterest</a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <p>ARCHIVE</p>
                             <a href="">Designer Shoes</a>
                             <a href="">Gallery</a>

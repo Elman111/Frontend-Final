@@ -36,7 +36,7 @@ $(function(){
 
 
 // AOS.init();
-//  $(".slide").vegas({
+//  $(".slide-right").vegas({
 //     delay:4000,
 //     slides: [
 //         { src: "https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background.jpg" },
@@ -45,3 +45,36 @@ $(function(){
 //     ],
 //     animation:"kenburns"
 // });
+
+
+$(function() {
+    let right = '<i class="fa-solid fa-arrow-right-long"></i>'
+    let left = '<i class="fa-solid fa-arrow-left-long"></i>'
+    $('.homeSlider').owlCarousel({
+    
+        
+        loop:true,
+        margin:10,
+        nav:true,
+        navText:[left,right],
+        // autoWidth:false,
+        dots:false,
+        
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    })
+})
+
+
+
+
+

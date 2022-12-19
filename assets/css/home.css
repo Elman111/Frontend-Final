@@ -207,6 +207,7 @@ header .nav .navtop .bascet a {
 
 main #slide .slide {
   height: 500px;
+  background-color: #f1f1f1;
 }
 
 main #slide .slide i {
@@ -293,9 +294,37 @@ main #product .product .product-main .text {
   margin-bottom: 30px;
 }
 
+main #product .product .product-main .text #addBtn {
+  margin-right: 20px;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+main #product .product .product-main .text #addBtn:hover {
+  color: #f34f3f;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main #product .product .product-main .text #value {
+  margin-right: 100px;
+}
+
 main #product .product .product-main .text span {
   color: #8b8b8b;
   font-size: 15px;
+}
+
+main #product .product .product-main .col-3:hover #value {
+  display: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+main #product .product .product-main .col-3:hover #addBtn {
+  visibility: visible;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 main #video-info .video-info {
@@ -386,6 +415,59 @@ main #search .search .searchInp button {
   color: white;
   border: none;
   margin-left: 0;
+}
+
+main #simple-carusel img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main #simple-carusel .owl-nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  /* padding: 0 30px; */
+  z-index: 1;
+  top: 30%;
+}
+
+main #simple-carusel .homeSlider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 800px;
+  margin: 0 auto;
+}
+
+main #simple-carusel .owl-nav .owl-next i,
+main #simple-carusel .owl-nav .owl-prev i {
+  font-size: 30px;
+  padding: 13px 29px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  color: #151313;
+}
+
+main #simple-carusel .owl-nav .owl-next i:hover,
+main #simple-carusel .owl-nav .owl-prev i:hover {
+  background-color: white;
+  color: black;
+}
+
+main #simple-carusel .owl-nav .owl-next i {
+  margin-right: -120px;
+}
+
+main #simple-carusel .owl-nav .owl-prev i {
+  margin-left: -120px;
 }
 
 main #blog .blog {

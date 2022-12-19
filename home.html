@@ -145,7 +145,11 @@
                             <div class="bascet">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                                 <i class="fa-solid fa-basket-shopping">
-                                    <sup>0</sup>
+                                    <sup>
+                                        <span id="basketCount">
+                                          0
+                                        </span>
+                                      </sup>
                                 </i>
                                 <a href="">CART($<span>0</span>)</a>
                             </div>
@@ -206,56 +210,56 @@
                                 <a href=""><img src="./assets/images/shop-14-img.jpg" alt=""></a>
                                 <div class="text">
                                     <p>MAJESTY PALM</p>
-                                    <span>$259</span>
+                                    <span  id="addBtn">Add to cart</span><span id="value">$259</span>
                                 </div>
                             </div>
                             <div id="8" class="col-3">
                                 <a href=""><img src="./assets/images/shop-13-img.jpg" alt=""></a>
                                 <div class="text">
                                     <p>FOXGLOVE FLOWER</p>
-                                    <span>$259</span>
+                                    <span  id="addBtn">Add to cart</span><span id="value">$259</span>
                                 </div>
                             </div>
                             <div id="7" class="col-3">
                                 <a href=""><img src="./assets/images/shop-10-img.jpg" alt=""></a>
                                 <div class="text">
                                     <p>SWEET ALYSSUM</p>
-                                    <span>$259</span>
+                                    <span  id="addBtn">Buy to Amazon</span><span id="value">$259</span>
                                 </div>
                             </div>
                             <div id="6" class="col-3">
                                 <a href=""><img src="./assets/images/shop-11-img.jpg" alt=""></a>
                                 <div class="text">
                                     <p>SPRING SNOWFLAKE</p>
-                                    <span>$170</span>
+                                    <span  id="addBtn">Buy to Amazon</span><span id="value">$170</span>
                                 </div>
                             </div>
                             <div id="5" class="col-3">
                                 <a href=""><img src="./assets/images/shop-12-img.jpg" alt=""></a>
                                 <div class="text">
                                     <p>SCARLET SAGE</p>
-                                    <span style="text-decoration: line-through;">$259</span>$159<span></span>
+                                    <span  id="addBtn">Add to cart</span><span id="value">$159</span>
                                 </div>
                             </div>
                             <div id="4" class="col-3">
                                 <a href=""><img src="./assets/images/shop-9-img.jpg" alt=""></a>
                                 <div class="text">
                                     <p>ROCK SOAPWORT</p>
-                                    <span>$259</span>
+                                    <span  id="addBtn">Buy to Amazon</span><span id="value">$259</span>
                                 </div>
                             </div>
                             <div id="3" class="col-3">
                                 <a href=""><img src="./assets/images/shop-8-img.jpg" alt=""></a>
                                 <div class="text">
                                     <p>SUMMER SAVORY</p>
-                                    <span>$259</span>
+                                    <span  id="addBtn">Buy to Amazon</span><span id="value">$259</span>
                                 </div>
                             </div>
                             <div id="2" class="col-3">
                                 <a href=""><img src="./assets/images/shop-7-img.jpg" alt=""></a>
                                 <div class="text">
                                     <p>WILD ROSES</p>
-                                    <span>$259</span>
+                                    <span  id="addBtn">Add to cart</span><span id="value">$259</span>
                                 </div>
                             </div>
                         </div>
@@ -399,26 +403,18 @@
         <section id="simple-carusel">
             <div class="carusel">
                 <div class="container">
-                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="..." class="d-block w-100" alt="...">
+                    <div class="slider">
+                        <div class=" homeSlider owl-carousel owl-theme owl-loaded">
+                          <div class="owl-stage-outer">
+                              <div class="owl-stage">
+                                
+                                  <div class="owl-item"><img src="./assets/images/testimonial-img-1.png" alt=""></div>
+                                
+                                  <div class="owl-item"><img src="./assets/images/testimonial-img-2.png" alt=""></div>
+                              </div>
+                              
                           </div>
-                          <div class="carousel-item" data-bs-interval="2000">
-                            <img src="..." class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="..." class="d-block w-100" alt="...">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
+                           
                       </div>
                 </div>
             </div>
@@ -435,14 +431,14 @@
             <div class="container">
                 <div class="info">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <p>CUSTOMER SERVICE</p>
                             <a href="">Help & Contact Us</a>
                             <a href="">Returns & Refunds</a>
                             <a href="">Online Stores</a>
                             <a href="">Terms & Conditions</a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <p>COMPANY</p>
                             <a href="">About Us</a>
                             <a href="">Blog</a>
@@ -451,14 +447,14 @@
                             <a href="">Contact Us</a>
                             <a href="">Login</a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <p>SOCIAL MEDIA</p>
                             <a href="">Twitter</a>
                             <a href="">Instagram</a>
                             <a href="">Tumblr</a>
                             <a href="">Pinterest</a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <p>ARCHIVE</p>
                             <a href="">Designer Shoes</a>
                             <a href="">Gallery</a>
